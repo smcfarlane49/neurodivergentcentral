@@ -1,0 +1,22 @@
+<div
+  id="families"
+  class="scrollto clearfix"
+  *ngIf="families$ | async as families"
+>
+  <div id="banner-content" class="row clearfix">
+    <!--Content Left Side-->
+    <div class="col-2-3">
+      <div class="section-heading">
+        <h1>{{ families.header }}</h1>
+        <p class="section-subtitle">{{ families.description }}</p>
+      </div>
+    </div>
+    <!--End Content Left Side-->
+
+    <div class="col-3" *ngIf="familyResources$">
+      <div *ngFor="let familyResource of familyResources$ | async; let i = index">
+        <app-family-resources-block [familyResource]="familyResource"></app-family-resources-block>
+      </div>
+    </div>
+  </div>
+</div>

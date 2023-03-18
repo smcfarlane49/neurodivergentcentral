@@ -1,0 +1,22 @@
+<div
+  id="employers"
+  class="scrollto clearfix"
+  *ngIf="employers$ | async as employers"
+>
+  <div id="banner-content" class="row clearfix">
+    <!--Content Left Side-->
+    <div class="col-2-3">
+      <div class="section-heading">
+        <h1>{{ employers.header }}</h1>
+        <p class="section-subtitle">{{ employers.description }}</p>
+      </div>
+    </div>
+    <!--End Content Left Side-->
+
+    <div class="col-3" *ngIf="employerResources$">
+      <div *ngFor="let employerResource of employerResources$ | async; let i = index">
+        <app-employer-resources-block [employerResource]="employerResource"></app-employer-resources-block>
+      </div>
+    </div>
+  </div>
+</div>

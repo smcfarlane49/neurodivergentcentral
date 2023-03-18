@@ -1,0 +1,26 @@
+<section
+  id="individuals"
+  class="introduction scrollto "
+  *ngIf="individuals$ | async as individual"
+>
+  <div id="banner-content" class="row clearfix">
+    <div class="col-2-3">
+      <div class="section-heading">
+        <h1>{{ individual.header }}</h1>
+        <p class="section-subtitle">{{ individual.description }}</p>
+      </div>
+
+      <div *ngIf="individualNeurodivergences$">
+        <div *ngFor="let individualNeurodivergence of individualNeurodivergences$ | async; let i = index">
+          <app-individual-neurodivergence-block [individualNeurodivergence]="individualNeurodivergence"></app-individual-neurodivergence-block>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3" *ngIf="individualResources$">
+      <div *ngFor="let individualResource of individualResources$ | async; let i = index">
+        <app-individual-resources-block [individualResource]="individualResource"></app-individual-resources-block>
+      </div>
+    </div>
+  </div>
+</section>
