@@ -291,31 +291,39 @@ export class InMemoryDataService implements InMemoryDbService {
     const familyResources = [
       {
         id: 1,
-        title: "Family Resource 1",
-        description:
-          "Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro neglegentur iudico",
-        url: "",
+        title: "Family Support Network",
+        description: "Provides support and resources for families of individuals with disabilities, including those who are neurodiverse.",
+        url: "https://fsnnc.org",
       },
       {
-        id: 2,
-        title: "Family Resource 2",
-        description:
-          "Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi",
-        url: "",
+        id:2,
+        title: "CHADD",
+        description: "Provides support and resources for families of individuals with ADHD, including information on treatment options and support groups.",
+        url: "https://chadd.org",
       },
       {
-        id: 3,
-        title: "Family Resource 3",
-        description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+        id:3,
+        title: "National Fragile X Foundation",
+        description: "Provides support and resources for families of individuals with Fragile X syndrome, a genetic condition that can cause intellectual disability and other challenges.",
+        url: "https://fragilex.org",
       },
       {
-        id: 4,
-        title: "Family Resource 4",
-        description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+        id:4,
+        title: "National Down Syndrome Society",
+        description: "Provides support and resources for families of individuals with Down syndrome, including education, advocacy, and research.",
+        url: "https://www.ndss.org",
+      },
+      {
+        id:5,
+        title: "Learning Disabilities Association of America",
+        description: "Provides support and resources for families of individuals with learning disabilities, including information on assessment, tutoring, and advocacy.",
+        url: "https://ldaamerica.org",
+      },
+      {
+        id:6,
+        title: "Child Mind Institute",
+        description: "Provides resources and support for families of children with mental health and learning disorders, including information on diagnosis, treatment, and support.",
+        url: "https://childmind.or",
       },
     ];
     const schoolResources = [

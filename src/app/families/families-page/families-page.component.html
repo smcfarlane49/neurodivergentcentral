@@ -25,6 +25,7 @@
 
 
     <div class="col-3" *ngIf="familyResources$">
+      <h4 class="resources"><b>Resources</b></h4>
       <div *ngFor="let familyResource of familyResources$ | async; let i = index">
         <app-family-resources-block [familyResource]="familyResource"></app-family-resources-block>
       </div>
