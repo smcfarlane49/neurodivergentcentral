@@ -371,31 +371,45 @@ export class InMemoryDataService implements InMemoryDbService {
     const employerResources = [
       {
         id: 1,
-        title: "Employer Resource 1",
-        description:
-          "Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro neglegentur iudico",
-        url: "",
+        title: "Neurodiversity in the Workplace",
+        description: "Provides information and resources for employers on hiring and supporting neurodiverse employees.",
+        url: "https://www.neurodiversityatwork.com",
       },
       {
-        id: 2,
-        title: "Employer Resource 2",
-        description:
-          "Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi",
-        url: "",
+        id:2,
+        title: "Autism Speaks Employer Tool Kit",
+        description: "Provides resources for employers on hiring and accommodating employees with autism, including sample job descriptions, interview questions, and accommodations.",
+        url: "https://www.autismspeaks.org/tool-kit/employment-tool-kit",
       },
       {
-        id: 3,
-        title: "Employer Resource 3",
-        description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+        id:3,
+        title: "National Organization on Disability (NOD)",
+        description: "Provides resources and support for employers on hiring and accommodating individuals with disabilities, including those who are neurodiverse.",
+        url: "https://www.nod.org",
       },
       {
-        id: 4,
-        title: "Employer Resource 4",
-        description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+        id:4,
+        title: "Job Accommodation Network (JAN)",
+        description: "Provides resources for employers on accommodating employees with disabilities, including those who are neurodiverse.",
+        url: "https://askjan.org",
+      },
+      {
+        id:5,
+        title: "Disability:IN",
+        description: "Provides resources and support for employers on hiring and accommodating individuals with disabilities, including those who are neurodiverse.",
+        url: "https://disabilityin.org",
+      },
+      {
+        id:6,
+        title: "The Arc@Work",
+        description: "Provides training and support for employers on hiring and accommodating employees with intellectual and developmental disabilities, including those who are neurodiverse.",
+        url: "https://thearc.org/our-initiatives/employment/",
+      },
+      {
+        id:7,
+        title: "Specialisterne USA",
+        description: "Provides recruitment, training, and support services for employers looking to hire neurodiverse employees, with a focus on individuals with autism.",
+        url: "https://www.us.specialisterne.com/",
       },
     ];
     const images = [
