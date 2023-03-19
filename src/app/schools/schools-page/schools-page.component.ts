@@ -24,12 +24,13 @@ export class SchoolsPageComponent implements OnInit {
   // }[];
   schools$: Observable<any> = new Observable();
   schoolResources$: Observable<any> = new Observable();
-
+  schoolsNeurodivergences$: Observable<any> = new Observable();
   constructor(private config: ConfigService) {}
 
   ngOnInit() {
     this.getPageData("pages", 4);
     this.getBlockData("schoolResources");
+    this.getSchoolData("schoolsNeurodivergences", 1);
   }
 
   getPageData(database: string, id?: number) {
@@ -38,5 +39,9 @@ export class SchoolsPageComponent implements OnInit {
 
   getBlockData(database: string) {
     this.schoolResources$ = this.config.getSettings(database);
+  }
+
+  getSchoolData(database: string, id?: number) {
+    this.schoolsNeurodivergences$ = this.config.getSettings(database, id);
   }
 }

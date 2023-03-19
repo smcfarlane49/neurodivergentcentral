@@ -179,6 +179,30 @@ export class InMemoryDataService implements InMemoryDbService {
         conclusion: "Overall, the most important thing that family members can do to support their neurodiverse family member is to be patient, understanding, and supportive. By working together, they can help their family member lead a fulfilling and successful life.",
       }
     ];
+    const schoolsNeurodivergences = [
+      {
+        id: 1,
+        title: "Schools can help students who are neurodiverse and educate other students in several ways:",
+        numberlist1: "1. Provide accommodations: Schools can provide accommodations such as extended time on assignments, sensory-friendly environments, and assistive technology to help neurodiverse students succeed academically.",
+        numberlist2: "2. Offer specialized support: Schools can offer specialized support such as counseling services, social skills groups, and occupational therapy to help neurodiverse students navigate the social and emotional challenges of school.",
+        numberlist3: "3. Train teachers and staff: Schools can train teachers and staff to better understand the needs of neurodiverse students and provide appropriate accommodations and support.",
+        numberlist4: "4. Foster inclusion and acceptance: Schools can foster inclusion and acceptance by promoting diversity and educating students about neurodiversity. This can be done through classroom discussions, school-wide events, and by providing resources to students and families.",
+        numberlist5: "5. Create peer support programs: Schools can create peer support programs where neurodiverse students can connect with other students and receive support and mentorship from older students.",
+        conclusion: "Overall, schools can play a critical role in supporting neurodiverse students and educating other students about neurodiversity. By creating a supportive and inclusive environment, schools can help all students succeed academically, socially, and emotionally.",
+      }
+    ];
+    const employersNeurodivergences = [
+      {
+        id: 1,
+        title: "",
+        numberlist1: "",
+        numberlist2: "",
+        numberlist3: "",
+        numberlist4: "",
+        numberlist5: "",
+        conclusion: "",
+      }
+    ];
     const individualResources = [
       {
         id: 1,
@@ -529,6 +553,8 @@ export class InMemoryDataService implements InMemoryDbService {
       pages,
       individualNeurodivergences,
       familiesNeurodivergences,
+      schoolsNeurodivergences,
+      employersNeurodivergences,
       individualResources,
       familyResources,
       schoolResources,
