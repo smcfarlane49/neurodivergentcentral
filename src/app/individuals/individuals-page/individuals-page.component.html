@@ -18,6 +18,7 @@
     </div>
 
     <div class="col-3" *ngIf="individualResources$">
+      <h4 class="resources"><b>Resources</b></h4>
       <div *ngFor="let individualResource of individualResources$ | async; let i = index">
         <app-individual-resources-block [individualResource]="individualResource"></app-individual-resources-block>
       </div>

@@ -24,6 +24,7 @@
     <!--End Content Left Side-->
 
     <div class="col-3" *ngIf="schoolResources$">
+      <h4 class="resources">Resources</h4>
       <div *ngFor="let schoolResource of schoolResources$ | async; let i = index">
         <app-school-resources-block [schoolResource]="schoolResource"></app-school-resources-block>
       </div>

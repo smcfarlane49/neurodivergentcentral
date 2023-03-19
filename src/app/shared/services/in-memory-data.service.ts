@@ -226,24 +226,66 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 2,
-        title: "Individual Resource 2",
+        title: "ADHD Coaches Organization",
         description:
-          "Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi",
-        url: "",
+          "Provides resources and training for ADHD coaches and connects individuals with coaches who can help them manage their condition.",
+        url: "https://www.adhdcoaches.org",
       },
       {
         id: 3,
-        title: "Individual Resource 3",
+        title: "National Alliance on Mental Illness (NAMI)",
         description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+          "Provides support and resources for individuals with mental health conditions, including those who are neurodiverse.",
+        url: "https://www.nami.org",
       },
       {
         id: 4,
-        title: "Individual Resource 4",
+        title: "Autism Society",
         description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+          "Provides support, resources, and advocacy for individuals with autism and their families.",
+        url: "https://www.autism-society.org/",
+      },
+      {
+        id: 5,
+        title: "Asperger/Autism Network (AANE)",
+        description:
+          "Provides support and resources for individuals with Asperger's and autism, as well as their families and professionals.",
+        url: "https://www.aane.org/",
+      },
+      {
+        id: 6,
+        title: "The Arc",
+        description:
+          "Provides advocacy and support for individuals with intellectual and developmental disabilities, including those who are neurodiverse.",
+        url: "https://thearc.org",
+      },
+      {
+        id: 7,
+        title: "CHADD",
+        description:
+          "Provides support and resources for individuals with ADHD and their families, including information on treatment options and support groups.",
+        url: "https://chadd.org",
+      },
+      {
+        id: 8,
+        title: "Dyslexia Action",
+        description:
+          "Provides support and resources for individuals with dyslexia, including assessment and tutoring services.",
+        url: "https://dyslexiaaction.org.uk",
+      },
+      {
+        id: 9,
+        title: "Tourette Association of America",
+        description:
+          "Provides support and resources for individuals with Tourette syndrome and their families, including education, advocacy, and research.",
+        url: "https://tourette.org",
+      },
+      {
+        id: 10,
+        title: "International Dyslexia Association (IDA)",
+        description:
+          "Provides resources and support for individuals with dyslexia and their families, including information on research, advocacy, and education.",
+        url: "https://dyslexiaida.org",
       },
     ];
     const familyResources = [
@@ -279,31 +321,51 @@ export class InMemoryDataService implements InMemoryDbService {
     const schoolResources = [
       {
         id: 1,
-        title: "School Resource 1",
-        description:
-          "Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro neglegentur iudico",
-        url: "",
+        title: "National Center for Learning Disabilities",
+        description: "Provides resources and support for students with learning disabilities and their families, including information on accommodations, advocacy, and legal rights.",
+        url: "https://www.ncld.org",
       },
       {
-        id: 2,
-        title: "School Resource 2",
-        description:
-          "Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi",
-        url: "",
+        id:2,
+        title: "Understood",
+        description: "Provides resources and support for students with learning and attention issues and their families, including information on accommodations, technology tools, and social and emotional support. ",
+        url: "https://www.understood.org/",
       },
       {
-        id: 3,
-        title: "School Resource 3",
-        description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+        id:3,
+        title: "Autism Speaks",
+        description: "Provides resources and support for students with autism and their families, including information on education, advocacy, and research.",
+        url: "https://www.autismspeaks.org",
       },
       {
-        id: 4,
-        title: "School Resource 4",
-        description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
-        url: "",
+        id:4,
+        title: "The Asperger/Autism Network (AANE)",
+        description: "Provides resources and support for students with Asperger's and autism, as well as their families and professionals.",
+        url: "https://www.aane.org",
+      },
+      {
+        id:5,
+        title: "ADHD Coaches Organization",
+        description: "Provides resources and training for ADHD coaches and connects students with coaches who can help them manage their condition.",
+        url: "https://www.adhdcoaches.org",
+      },
+      {
+        id:6,
+        title: "Council for Exceptional Children",
+        description: "Provides resources and support for students with disabilities and their families, including information on special education, assistive technology, and professional development.",
+        url: "https://www.cec.sped.org",
+      },
+      {
+        id:7,
+        title: "International Dyslexia Association (IDA)",
+        description: "Provides resources and support for students with dyslexia and their families, including information on assessment, tutoring, and advocacy.",
+        url: "https://dyslexiaida.org",
+      },
+      {
+        id:8,
+        title: "National Association of School Psychologists",
+        description: "Provides resources and support for school psychologists and other professionals who work with students with disabilities, including information on assessment, intervention, and advocacy.",
+        url: "https://www.nasponline.org",
       },
     ];
     const employerResources = [
