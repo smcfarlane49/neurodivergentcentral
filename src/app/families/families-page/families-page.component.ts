@@ -16,12 +16,14 @@ export class FamiliesPageComponent implements OnInit {
   // }[];
   families$: Observable<any> = new Observable();
   familyResources$: Observable<any> = new Observable();
+  familiesNeurodivergences$: Observable<any> = new Observable();
 
   constructor(private config: ConfigService) {}
 
   ngOnInit() {
     this.getPageData("pages", 3);
     this.getBlockData("familyResources");
+    this.getFamilyData("familiesNeurodivergences", 1);
   }
 
   getPageData(database: string, id?: number) {
@@ -33,5 +35,9 @@ export class FamiliesPageComponent implements OnInit {
     //   console.log("features: ", this.features);
     // });
     this.familyResources$ = this.config.getSettings(database);
+  }
+
+  getFamilyData(database: string, id?: number) {
+    this.familiesNeurodivergences$ = this.config.getSettings(database, id);
   }
 }

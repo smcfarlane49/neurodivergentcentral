@@ -10,8 +10,19 @@
         <h1>{{ families.header }}</h1>
         <p class="section-subtitle">{{ families.description }}</p>
       </div>
+
+      <div *ngIf="familiesNeurodivergences$ | async as familiesNeurodivergences">
+        <p>{{ familiesNeurodivergences.title }}</p>
+        <p>{{ familiesNeurodivergences.numberlist1 }}</p>
+        <p>{{ familiesNeurodivergences.numberlist2 }}</p>
+        <p>{{ familiesNeurodivergences.numberlist3 }}</p>
+        <p>{{ familiesNeurodivergences.numberlist4 }}</p>
+        <p>{{ familiesNeurodivergences.numberlist5 }}</p>
+        <p>{{ familiesNeurodivergences.conclusion }}</p>
+      </div>
     </div>
     <!--End Content Left Side-->
+
 
     <div class="col-3" *ngIf="familyResources$">
       <div *ngFor="let familyResource of familyResources$ | async; let i = index">

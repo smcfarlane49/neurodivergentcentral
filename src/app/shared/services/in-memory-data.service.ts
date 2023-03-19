@@ -167,6 +167,18 @@ export class InMemoryDataService implements InMemoryDbService {
         description4: "Overall, viewing SPD as neurodiverse acknowledges and values the unique experiences and abilities of individuals with SPD, and promotes a more inclusive and accepting society that recognizes and supports the contributions of neurodiverse individuals.",
       },
     ];
+    const familiesNeurodivergences = [
+      {
+        id: 1,
+        title: "There are several ways in which family members can help family members who are neurodiverse:",
+        numberlist1: "    1. Educate themselves: It's important for family members to educate themselves about the neurodiverse condition that their family member has. This will help them better understand the challenges that their family member may be facing, and the ways in which they can best support them,",
+        numberlist2: "    2. Be patient and understanding: Family members should be patient and understanding with their neurodiverse family member. They may have different communication styles, and may require more time to process information or complete tasks. It's important to avoid getting frustrated or angry, and to instead offer support and encouragement.",
+        numberlist3: "    3. Advocate for their needs: Family members can advocate for their neurodiverse family member's needs. This may include communicating with healthcare providers, educators, and other service providers to ensure that their family member is receiving the appropriate support and accommodations.",
+        numberlist4: "    4. Provide a safe and supportive environment: Family members can provide a safe and supportive environment for their neurodiverse family member. This may involve creating a predictable routine, providing sensory accommodations, or setting up a quiet space where their family member can go to when feeling overwhelmed.",
+        numberlist5: "    5. Encourage independence: Family members can encourage independence by providing opportunities for their neurodiverse family member to practice skills and make decisions on their own. This can help build confidence and self-esteem, and help them develop the skills they need to live independently.",
+        conclusion: "Overall, the most important thing that family members can do to support their neurodiverse family member is to be patient, understanding, and supportive. By working together, they can help their family member lead a fulfilling and successful life.",
+      }
+    ];
     const individualResources = [
       {
         id: 1,
@@ -516,6 +528,7 @@ export class InMemoryDataService implements InMemoryDbService {
       menu,
       pages,
       individualNeurodivergences,
+      familiesNeurodivergences,
       individualResources,
       familyResources,
       schoolResources,
