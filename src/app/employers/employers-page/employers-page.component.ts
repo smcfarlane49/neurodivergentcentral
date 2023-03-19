@@ -18,11 +18,13 @@ export class EmployersPageComponent implements OnInit {
 
   // companies: { id: number; name: string; weblink: string; logo: string }[];
   employerResources$: Observable<any> = new Observable();
+  employersNeurodivergences$: Observable<any> = new Observable();
   constructor(private config: ConfigService) {}
 
   ngOnInit() {
     this.getPageData("pages", 5);
     this.getBlockData("employerResources");
+    this.getEmployerData("employersNeurodivergences")
   }
 
   getPageData(database: string, id?: number) {
@@ -31,5 +33,9 @@ export class EmployersPageComponent implements OnInit {
 
   getBlockData(database: string) {
     this.employerResources$ = this.config.getSettings(database);
+  }
+
+  getEmployerData(database: string) {
+    this.employersNeurodivergences$ = this.config.getSettings(database);
   }
 }

@@ -194,13 +194,23 @@ export class InMemoryDataService implements InMemoryDbService {
     const employersNeurodivergences = [
       {
         id: 1,
-        title: "",
-        numberlist1: "",
-        numberlist2: "",
-        numberlist3: "",
-        numberlist4: "",
-        numberlist5: "",
-        conclusion: "",
+        title: "Employers can take several steps to make the interviewing process more accessible and inclusive for candidates who are neurodiverse. Here are some suggestions:",
+        numberlist1: "1. Create a welcoming environment: Ensure that the interview location is quiet, well-lit, and free of distractions. Consider the sensory needs of neurodiverse candidates, such as providing noise-cancelling headphones or adjusting lighting levels.",
+        numberlist2: "2. Provide clear communication: Use plain language and avoid jargon, idioms, or sarcasm, which can be confusing for individuals with neurodiverse conditions. Allow extra time for candidates to process questions and provide them with written instructions or visual aids, if necessary.",
+        numberlist3: "3. Offer accommodations: Be open to providing accommodations such as extra time, breaks, or alternative interview formats, such as video or phone interviews. Allow candidates to bring a support person or advocate with them to the interview if they request it.",
+        numberlist4: "4. Train interviewers: Provide training to interviewers on how to recognize and support neurodiverse candidates. This can include information on common neurodiverse conditions, communication strategies, and how to provide accommodations.",
+        numberlist5: "5. Focus on skills and strengths: Avoid asking questions that rely heavily on social skills or assume a specific way of thinking. Instead, focus on the candidate's skills, experiences, and strengths relevant to the position.",
+        conclusion: "By taking these steps, employers can create a more inclusive and accessible interviewing process for candidates who are neurodiverse.",
+      },
+      {
+        id: 2,
+        title: "Employers can take several steps to create a more inclusive and supportive workplace environment for employees who are neurodiverse. Here are some suggestions:",
+        numberlist1: "1. Provide clear expectations and instructions: Use clear and concise language when communicating expectations and instructions, and avoid using ambiguous or figurative language that may be confusing for individuals with neurodiverse conditions.",
+        numberlist2: "2. Offer accommodations: Provide accommodations such as flexible work hours, noise-cancelling headphones, and other tools and technologies that can help employees with neurodiverse conditions perform their job duties effectively.",
+        numberlist3: "3. Foster an inclusive workplace culture: Train managers and colleagues on neurodiversity, and encourage them to create a supportive and accepting workplace culture. This can include promoting respectful and inclusive language, avoiding stigmatizing or discriminatory behavior, and recognizing and valuing the strengths of neurodiverse employees.",
+        numberlist4: "4. Provide mentorship and support: Offer mentorship programs and support groups for neurodiverse employees, as well as opportunities for career development and advancement.",
+        numberlist5: "5. Consider sensory needs: Take steps to address sensory needs, such as providing quiet workspaces, adjustable lighting, and ergonomic furniture.",
+        conclusion: "By taking these steps, employers can create a more inclusive and supportive workplace environment for employees who are neurodiverse, which can help them be more comfortable and successful in their roles.",
       }
     ];
     const individualResources = [

@@ -12,12 +12,12 @@
       </div>
 
       <div *ngIf="familiesNeurodivergences$ | async as familiesNeurodivergences">
-        <p>{{ familiesNeurodivergences.title }}</p>
-        <p>{{ familiesNeurodivergences.numberlist1 }}</p>
-        <p>{{ familiesNeurodivergences.numberlist2 }}</p>
-        <p>{{ familiesNeurodivergences.numberlist3 }}</p>
-        <p>{{ familiesNeurodivergences.numberlist4 }}</p>
-        <p>{{ familiesNeurodivergences.numberlist5 }}</p>
+        <p><b>{{ familiesNeurodivergences.title }}</b></p>
+        <p class="indent">{{ familiesNeurodivergences.numberlist1 }}</p>
+        <p class="indent">{{ familiesNeurodivergences.numberlist2 }}</p>
+        <p class="indent">{{ familiesNeurodivergences.numberlist3 }}</p>
+        <p class="indent">{{ familiesNeurodivergences.numberlist4 }}</p>
+        <p class="indent">{{ familiesNeurodivergences.numberlist5 }}</p>
         <p>{{ familiesNeurodivergences.conclusion }}</p>
       </div>
     </div>

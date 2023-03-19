@@ -10,6 +10,10 @@
         <h1>{{ employers.header }}</h1>
         <p class="section-subtitle">{{ employers.description }}</p>
       </div>
+
+      <div *ngFor="let employersNeurodivergence of employersNeurodivergences$ | async; let i = index">
+        <app-employer-data-block [employersNeurodivergence]="employersNeurodivergence"></app-employer-data-block>
+      </div>
     </div>
     <!--End Content Left Side-->
 
