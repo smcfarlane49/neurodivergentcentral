@@ -599,6 +599,12 @@ export class InMemoryDataService implements InMemoryDbService {
         featured: false,
       },
     ];
+    const amznAds = [
+      {
+        id: 1,
+        key: "amzn-assoc-ad-659d311c-7e41-4f41-a40f-999b6655e2ff",
+      },
+    ];
     const websites = [
       {
         id: 1,
@@ -659,6 +665,7 @@ export class InMemoryDataService implements InMemoryDbService {
       feedback,
       plans,
       websites,
+      amznAds,
     };
   }
 }
